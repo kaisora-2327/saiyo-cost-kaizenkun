@@ -3,7 +3,7 @@
 求人広告代理店向けの紹介ページです。ビルドの仕組みはなく、HTML・CSS・JS だけの静的サイトです。
 
 - 確認用URL: https://kaisora-2327.github.io/saiyo-cost-kaizenkun/
-- 公開予定のURL: https://lp.saiyokaizen.jp/ （DNSは未設定）
+- 公開予定のURL: https://lp.saiyokaizen.jp/ （DNS未設定のため、独自ドメインはまだ設定していません）
 
 ## ファイル構成
 
@@ -12,7 +12,6 @@ index.html        ページ本体（文言・構成はすべてここ）
 assets/style.css  スタイル（色・書体は先頭の :root で定義）
 assets/main.js    製品ツアーのタブ切り替えと、お問い合わせフォームの入力チェック
 assets/robot.png  ロゴとキャラクターの画像
-CNAME             GitHub Pages の独自ドメイン設定（lp.saiyokaizen.jp）
 ```
 
 ## 手元で見る
@@ -47,4 +46,4 @@ npx serve .
 
 ## 公開（GitHub Pages）
 
-`main` ブランチのルートをそのまま公開しています。別の環境に移す場合は、このリポジトリの Pages を停止し、`CNAME` を削除してください。
+`main` ブランチのルートをそのまま公開しています。既存の開発環境に移す場合は、移したあとにこのリポジトリの Pages を停止してください。
